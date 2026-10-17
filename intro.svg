@@ -1,15 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="750" height="80" viewBox="0 0 750 80">
   <rect width="750" height="80" fill="transparent"/>
   <style>
-    .text {
-      font-family: 'Courier New', monospace;
-      font-size: 30px;
-      font-weight: 600;
-      text-anchor: middle;
-    }
+    .text { font-family: 'Courier New', monospace; font-size: 30px; font-weight: 600; text-anchor: middle; }
   </style>
 
-  <!-- Line 1: words appear one by one, then all fade out -->
   <text x="375" y="48" class="text" fill="#00F7FF">
     <tspan opacity="0">Hey<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.02;0.04;0.46;0.50;1" dur="10s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">there!<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.07;0.09;0.46;0.50;1" dur="10s" repeatCount="indefinite"/></tspan>
@@ -19,8 +13,7 @@
     <tspan opacity="0">Mujtaba<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.27;0.29;0.46;0.50;1" dur="10s" repeatCount="indefinite"/></tspan>
   </text>
 
-  <!-- Line 2: words appear one by one, then all fade out -->
-  <text x="375" y="48" class="text" fill="#FFFFFF">
+  <text x="375" y="48" class="text" fill="#A855F7">
     <tspan opacity="0">Full<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.54;0.56;0.92;0.96;1" dur="10s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Stack<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.60;0.62;0.92;0.96;1" dur="10s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Developer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.68;0.92;0.96;1" dur="10s" repeatCount="indefinite"/></tspan>
