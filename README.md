@@ -4,12 +4,6 @@
 
 <h2 align="center">👨‍💻 About Me</h2>
 
-<p align="center">
-  I'm a B.Tech Computer Science Engineering student specializing in AI & ML, interested in backend development, data science, and machine learning. I enjoy understanding how data moves through a system, from the server that handles it to the model that learns from it.
-</p>
-
-<br>
-
 - 🎓 **Currently pursuing:** B.Tech in Computer Science Engineering (AI & ML)
 - ⚙️ **Backend:** Building server-side applications and APIs with Node.js and Express.js
 - 📊 **Data Analysis:** Exploring and visualizing data with Python, Pandas, NumPy, and Matplotlib
