@@ -13,7 +13,7 @@
     <tspan opacity="0">Mujtaba<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.27;0.29;0.46;0.50;1" dur="10s" repeatCount="indefinite"/></tspan>
   </text>
 
-  <text x="375" y="48" class="text" fill="#A855F7">
+  <text x="375" y="48" class="text" fill="#00F7FF">
     <tspan opacity="0">Full<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.54;0.56;0.92;0.96;1" dur="10s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Stack<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.60;0.62;0.92;0.96;1" dur="10s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Developer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.68;0.92;0.96;1" dur="10s" repeatCount="indefinite"/></tspan>
