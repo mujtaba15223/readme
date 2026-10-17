@@ -2,6 +2,29 @@
   <img src="https://raw.githubusercontent.com/mujtaba15223/readme.md/main/intro.svg" width="750" alt="Animated introduction">
 </p>
 
+<h2 align="center">👨‍💻 About Me</h2>
+
+<p align="center">
+  I'm a Computer Science Engineering student specializing in AI & ML, drawn to the part of software that happens behind the screen: how data is collected, stored, processed, and turned into something useful.
+</p>
+
+<br>
+
+- 🎓 **Education:** B.Tech in Computer Science Engineering, specializing in Artificial Intelligence & Machine Learning
+- ⚙️ **Backend Development:** Building server-side logic and APIs with Node.js and Express.js
+- 📊 **Data Science:** Exploring, cleaning, and visualizing data using Python and its core data libraries
+- 🤖 **Machine Learning:** Building my foundation with regression analysis and learning how models turn data into predictions
+- 🕷️ **Web Scraping:** Collecting real-world data from the web to work with practical datasets
+- 🗄️ **Data Handling:** Working with both SQL and MongoDB to understand how different databases store and serve data
+- 🌱 **Currently:** Growing from fundamentals toward more advanced machine learning concepts and complete backend projects
+- 🎯 **Goal:** Bridge backend engineering and data-driven systems to build reliable, intelligent applications
+
+<br>
+
+<p align="center">
+  <i>Always learning, building, and improving one project at a time.</i>
+</p>
+
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <br>
