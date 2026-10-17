@@ -1,70 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="750" height="150" viewBox="0 0 750 150">
-  <defs>
-    <!-- Shimmering gradient (reflects, so the loop is seamless) -->
-    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="750" y2="0" spreadMethod="reflect">
-      <stop offset="0" stop-color="#00F7FF"/>
-      <stop offset="0.5" stop-color="#A855F7"/>
-      <stop offset="1" stop-color="#00F7FF"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0" dur="10s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="frame" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="750" y2="150">
-      <stop offset="0" stop-color="#00F7FF"/>
-      <stop offset="1" stop-color="#A855F7"/>
-    </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0E1530"/>
-      <stop offset="1" stop-color="#070B18"/>
-    </linearGradient>
-    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
-      <path d="M25 0H0V25" fill="none" stroke="#00F7FF" stroke-opacity="0.06" stroke-width="1"/>
-    </pattern>
-    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="2.4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="clip"><rect x="2" y="2" width="746" height="146" rx="14"/></clipPath>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="80" viewBox="0 0 750 80">
+  <rect width="750" height="80" fill="transparent"/>
   <style>
-    .text  { font-family: 'Courier New', monospace; font-size: 30px; font-weight: 700; text-anchor: middle; }
-    .small { font-size: 17px; }
-    .mono  { font-family: 'Courier New', monospace; font-size: 12px; fill: #7C89A8; }
+    .text { font-family: 'Courier New', monospace; font-size: 30px; font-weight: 600; text-anchor: middle; }
+    .small { font-size: 18px; }
   </style>
 
-  <!-- Card -->
-  <rect x="2" y="2" width="746" height="146" rx="14" fill="url(#card)"/>
-  <rect x="2" y="2" width="746" height="146" rx="14" fill="url(#grid)"/>
-
-  <g clip-path="url(#clip)">
-    <!-- Scanline -->
-    <rect x="0" y="36" width="750" height="2" fill="#00F7FF" opacity="0.15">
-      <animate attributeName="y" values="36;148" dur="4s" repeatCount="indefinite"/>
-    </rect>
-    <!-- Floating particles -->
-    <circle cx="120" cy="140" r="1.8" fill="#00F7FF"><animate attributeName="cy" values="145;40" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="260" cy="140" r="1.4" fill="#A855F7"><animate attributeName="cy" values="145;40" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="6.5s" repeatCount="indefinite"/></circle>
-    <circle cx="430" cy="140" r="1.8" fill="#00F7FF"><animate attributeName="cy" values="145;40" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="4.5s" repeatCount="indefinite"/></circle>
-    <circle cx="560" cy="140" r="1.4" fill="#A855F7"><animate attributeName="cy" values="145;40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="7s" repeatCount="indefinite"/></circle>
-    <circle cx="680" cy="140" r="1.8" fill="#00F7FF"><animate attributeName="cy" values="145;40" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5.5s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- Marching dashed frame -->
-  <rect x="2" y="2" width="746" height="146" rx="14" fill="none" stroke="url(#frame)" stroke-width="1.5" stroke-dasharray="8 6">
-    <animate attributeName="stroke-dashoffset" values="0;-28" dur="2s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Terminal header -->
-  <circle cx="26" cy="20" r="4.5" fill="#FF5F56"/>
-  <circle cx="42" cy="20" r="4.5" fill="#FFBD2E"/>
-  <circle cx="58" cy="20" r="4.5" fill="#27C93F"/>
-  <text x="80" y="24" class="mono">alchemyst@arcanum:~$</text>
-  <rect x="232" y="14" width="7" height="13" fill="#00F7FF">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-  <line x1="2" y1="36" x2="748" y2="36" stroke="#1F2A44" stroke-width="1"/>
-
   <!-- Line 1 -->
-  <text x="375" y="95" class="text" fill="url(#g)" filter="url(#glow)">
+  <text x="375" y="48" class="text" fill="#00F7FF">
     <tspan opacity="0">Hey<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.005;0.013;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">there!<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.023;0.031;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">👋<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.041;0.049;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
@@ -74,25 +16,31 @@
   </text>
 
   <!-- Line 2 -->
-  <text x="375" y="95" class="text" fill="url(#g)" filter="url(#glow)">
+  <text x="375" y="48" class="text" fill="#00F7FF">
     <tspan opacity="0">Full<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.205;0.213;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Stack<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.223;0.231;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Developer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.241;0.249;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">💻<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.259;0.267;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
   </text>
 
-  <!-- Line 3 icon: binary tree (DSA) -->
-  <g transform="translate(75,90)" opacity="0" stroke="#00F7FF" stroke-width="1.8" stroke-linecap="round" filter="url(#glow)">
+  <!-- Line 3: DSA icon (binary tree) -->
+  <g opacity="0" stroke="#00F7FF" stroke-width="2" stroke-linecap="round" fill="none">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.405;0.413;0.578;0.586;1" dur="30s" repeatCount="indefinite"/>
-    <line x1="0" y1="-16" x2="-11" y2="0"/><line x1="0" y1="-16" x2="11" y2="0"/>
-    <line x1="-11" y1="0" x2="-17" y2="15"/><line x1="-11" y1="0" x2="-5" y2="15"/><line x1="11" y1="0" x2="17" y2="15"/>
-    <circle cx="0" cy="-16" r="4.5" fill="#00F7FF"/>
-    <circle cx="-11" cy="0" r="4" fill="#38BDF8"/><circle cx="11" cy="0" r="4" fill="#38BDF8"/>
-    <circle cx="-17" cy="15" r="3.5" fill="#A855F7"/><circle cx="-5" cy="15" r="3.5" fill="#A855F7"/><circle cx="17" cy="15" r="3.5" fill="#A855F7"/>
+    <line x1="46" y1="29" x2="35" y2="43"/>
+    <line x1="46" y1="29" x2="57" y2="43"/>
+    <line x1="35" y1="43" x2="28" y2="55"/>
+    <line x1="35" y1="43" x2="42" y2="55"/>
+    <line x1="57" y1="43" x2="64" y2="55"/>
+    <circle cx="46" cy="26" r="4.5" fill="#00F7FF"/>
+    <circle cx="35" cy="43" r="4.5" fill="#00F7FF"/>
+    <circle cx="57" cy="43" r="4.5" fill="#00F7FF"/>
+    <circle cx="28" cy="57" r="4" fill="#00F7FF"/>
+    <circle cx="42" cy="57" r="4" fill="#00F7FF"/>
+    <circle cx="64" cy="57" r="4" fill="#00F7FF"/>
   </g>
 
-  <!-- Line 3 text -->
-  <text x="410" y="96" class="text small" fill="url(#g)" filter="url(#glow)">
+  <!-- Line 3 -->
+  <text x="385" y="46" class="text small" fill="#00F7FF">
     <tspan opacity="0">Currently<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.421;0.429;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">mastering<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.437;0.445;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Data<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.453;0.461;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
@@ -102,21 +50,9 @@
     <tspan opacity="0">(DSA).<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.517;0.525;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
   </text>
 
-  <!-- Line 4 icon: neural network (ML) -->
-  <g transform="translate(75,90)" opacity="0" stroke="#00F7FF" stroke-width="1" stroke-opacity="0.7" filter="url(#glow)">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.605;0.613;0.778;0.786;1" dur="30s" repeatCount="indefinite"/>
-    <line x1="-18" y1="-10" x2="0" y2="-15"/><line x1="-18" y1="-10" x2="0" y2="0"/><line x1="-18" y1="-10" x2="0" y2="15"/>
-    <line x1="-18" y1="10" x2="0" y2="-15"/><line x1="-18" y1="10" x2="0" y2="0"/><line x1="-18" y1="10" x2="0" y2="15"/>
-    <line x1="0" y1="-15" x2="18" y2="0"/><line x1="0" y1="0" x2="18" y2="0"/><line x1="0" y1="15" x2="18" y2="0"/>
-    <circle cx="-18" cy="-10" r="4" fill="#00F7FF" stroke="none"/><circle cx="-18" cy="10" r="4" fill="#00F7FF" stroke="none"/>
-    <circle cx="0" cy="-15" r="4" fill="#38BDF8" stroke="none"/>
-    <circle cx="0" cy="0" r="4" fill="#38BDF8" stroke="none"><animate attributeName="r" values="4;5.5;4" dur="1.5s" repeatCount="indefinite"/></circle>
-    <circle cx="0" cy="15" r="4" fill="#38BDF8" stroke="none"/>
-    <circle cx="18" cy="0" r="5" fill="#A855F7" stroke="none"/>
-  </g>
-
-  <!-- Line 4 text -->
-  <text x="118" y="96" class="text small" style="text-anchor:start; font-size:16px" fill="url(#g)" filter="url(#glow)">
+  <!-- Line 4 -->
+  <text x="375" y="46" class="text small" fill="#00F7FF">
+    <tspan opacity="0">🤖<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.605;0.613;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Exploring<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.621;0.629;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Machine<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.637;0.645;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Learning<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.653;0.661;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
@@ -126,17 +62,9 @@
     <tspan opacity="0">solutions.<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.717;0.725;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
   </text>
 
-  <!-- Line 5 icon: bubbling flask -->
-  <g transform="translate(75,90)" opacity="0" filter="url(#glow)">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.805;0.813;0.978;0.986;1" dur="30s" repeatCount="indefinite"/>
-    <path d="M-10 4 L10 4 L14 12 Q15 15 12 15 H-12 Q-15 15 -14 12 Z" fill="#A855F7" opacity="0.85"/>
-    <path d="M-5 -18 H5 M-5 -18 V-6 L-15 12 Q-16 16 -12 16 H12 Q16 16 15 12 L5 -6 V-18" fill="none" stroke="#00F7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="-3" cy="8" r="1.8" fill="#00F7FF"><animate attributeName="cy" values="10;-8" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.6s" repeatCount="indefinite"/></circle>
-    <circle cx="3" cy="8" r="1.4" fill="#FFFFFF"><animate attributeName="cy" values="10;-12" dur="2.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.1s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- Line 5 text -->
-  <text x="410" y="96" class="text small" fill="url(#g)" filter="url(#glow)">
+  <!-- Line 5 -->
+  <text x="375" y="46" class="text small" fill="#00F7FF">
+    <tspan opacity="0">⚡<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.805;0.813;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">ALCHEMYST.exe<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.821;0.829;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">—<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.837;0.845;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">Something<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.853;0.861;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
@@ -144,20 +72,4 @@
     <tspan opacity="0">is<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.885;0.893;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
     <tspan opacity="0">compiling...<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.901;0.909;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
   </text>
-
-  <!-- Progress bar (resets every 6s slot) -->
-  <rect x="25" y="126" width="700" height="2" rx="1" fill="#1F2A44"/>
-  <rect x="25" y="125.5" width="0" height="3" rx="1.5" fill="url(#g)" filter="url(#glow)">
-    <animate attributeName="width" values="0;700" dur="6s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Slide indicator dots -->
-  <g fill="#1F2A44">
-    <circle cx="351" cy="138" r="3"/><circle cx="363" cy="138" r="3"/><circle cx="375" cy="138" r="3"/><circle cx="387" cy="138" r="3"/><circle cx="399" cy="138" r="3"/>
-  </g>
-  <circle cx="351" cy="138" r="3" fill="#00F7FF" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0" keyTimes="0;0.2;1" dur="30s" repeatCount="indefinite"/></circle>
-  <circle cx="363" cy="138" r="3" fill="#00F7FF" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.2;0.4;1" dur="30s" repeatCount="indefinite"/></circle>
-  <circle cx="375" cy="138" r="3" fill="#00F7FF" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.4;0.6;1" dur="30s" repeatCount="indefinite"/></circle>
-  <circle cx="387" cy="138" r="3" fill="#00F7FF" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.6;0.8;1" dur="30s" repeatCount="indefinite"/></circle>
-  <circle cx="399" cy="138" r="3" fill="#A855F7" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;1" keyTimes="0;0.8;1" dur="30s" repeatCount="indefinite"/></circle>
 </svg>
