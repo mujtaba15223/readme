@@ -1,5 +1,6 @@
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mujtaba15223/readme.md/main/intro.svg" width="750" alt="Animated introduction">
+  <img src="https://raw.githubusercontent.com/mujtaba15223/readme.md/main/intro.svg" alt="Animated introduction" width="750">
 </p>
 
 <h2 align="center">👨‍💻 About Me</h2>
