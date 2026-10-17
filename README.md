@@ -1,10 +1,4 @@
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/mujtaba15223/readme/main/intro.svg"
-    width="750"
-    alt="Animated introduction"
-  />
-</p>
+<img src="https://raw.githubusercontent.com/mujtaba15223/readme/main/intro.svg" width="750" alt="Animated introduction">
 <h2 align="center">👨‍💻 About Me</h2>
 
 - 🎓 **Currently pursuing:** B.Tech in Computer Science Engineering (AI & ML)
