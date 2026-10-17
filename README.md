@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=1&pause=450&color=00F7FF&center=true&vCenter=true&repeat=false&width=750&height=60&lines=Hey;Hey+there!;Hey+there!+%F0%9F%91%8B;Hey+there!+%F0%9F%91%8B+I'm;Hey+there!+%F0%9F%91%8B+I'm+Mohd;Hey+there!+%F0%9F%91%8B+I'm+Mohd+Mujtaba" alt="Hey there! I'm Mohd Mujtaba" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&repeat=true&multiline=true&width=750&height=110&lines=Hey+there!+%F0%9F%91%8B+I'm+Mohd+Mujtaba;Full+Stack+Developer+%F0%9F%92%BB" alt="Hey there! I'm Mohd Mujtaba - Full Stack Developer" />
 </h1>
 
 <p align="center">
