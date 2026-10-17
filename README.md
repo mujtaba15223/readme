@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=100&pause=1200&deleteSpeed=50&color=00F7FF&center=true&vCenter=true&repeat=true&width=750&height=70&lines=Hey+there!+%F0%9F%91%8B+I'm+Mohd+Mujtaba;Full+Stack+Developer+%F0%9F%92%BB" alt="Animated introduction" />
+  <img src="./intro.svg" alt="Hey there! I'm Mohd Mujtaba - Full Stack Developer" />
 </h1>
 
 <p align="center">
