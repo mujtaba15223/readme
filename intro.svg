@@ -1,75 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="750" height="80" viewBox="0 0 750 80">
-  <rect width="750" height="80" fill="transparent"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="80" viewBox="0 0 750 80" role="img" aria-label="Hey there! I’m Mohd Mujtaba. Full Stack Developer. Currently mastering Data Structures and Algorithms. Exploring Machine Learning and building intelligent solutions.">
+  <title>Mohd Mujtaba – intro</title>
   <style>
-    .text { font-family: 'Courier New', monospace; font-size: 30px; font-weight: 600; text-anchor: middle; }
-    .small { font-size: 18px; }
+    .t   { font-family: 'Courier New', Courier, 'Liberation Mono', 'DejaVu Sans Mono', monospace; font-weight: 600; text-anchor: middle; fill: #FFFFFF; }
+    .big { font-size: 30px; }
+    .sm  { font-size: 17px; }
+    .c, .k { fill: #00F7FF; }
+    .ic  { stroke: #00F7FF; }
+    .if  { fill: #00F7FF; }
+    @media (prefers-color-scheme: light) {
+      .t { fill: #1f2328; }
+      .c, .k, .if { fill: #0891b2; }
+      .ic { stroke: #0891b2; }
+    }
   </style>
 
-  <!-- Line 1 -->
-  <text x="375" y="48" class="text" fill="#00F7FF">
-    <tspan opacity="0">Hey<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.005;0.013;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">there!<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.023;0.031;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">👋<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.041;0.049;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">I'm<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.059;0.067;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Mohd<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.077;0.085;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Mujtaba<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.095;0.103;0.178;0.186;1" dur="30s" repeatCount="indefinite"/></tspan>
+  <!-- No background box. Loop = 34.4s. Words appear every 0.8s, 0.5s after each message starts.
+       Each finished line is held for 3s, fades out in 0.4s, then 0.5s of empty space before the next one. -->
+
+  <!-- Message 1 (starts 0s) -->
+  <text class="t big" x="384" y="48">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.218023;0.229651;1" dur="34.4s" repeatCount="indefinite"/>
+    <tspan visibility="hidden">Hey<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.014535" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.014535;0.037791" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-18" visibility="hidden">&#160;there!<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.037791" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.037791;0.061047" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-18" visibility="hidden">&#160;👋<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.061047" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.061047;0.084302" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-18" visibility="hidden">&#160;I’m<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.084302" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.084302;0.107558" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="c" dx="-18" visibility="hidden">&#160;Mohd<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.107558" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.107558;0.130814" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="c" dx="-18" visibility="hidden">&#160;Mujtaba<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.130814" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan visibility="hidden"><animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.130814" dur="34.4s" repeatCount="indefinite"/><tspan class="k">|<animate attributeName="fill-opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" begin="4.5s" dur="0.8s" repeatCount="indefinite"/></tspan></tspan>
   </text>
 
-  <!-- Line 2 -->
-  <text x="375" y="48" class="text" fill="#00F7FF">
-    <tspan opacity="0">Full<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.205;0.213;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Stack<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.223;0.231;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Developer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.241;0.249;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">💻<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.259;0.267;0.378;0.386;1" dur="30s" repeatCount="indefinite"/></tspan>
+  <!-- Message 2 (starts 8.4s) -->
+  <text class="t big" x="384" y="48">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.415698;0.427326;1" dur="34.4s" repeatCount="indefinite"/>
+    <tspan visibility="hidden">Full<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.258721" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.258721;0.281977" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-18" visibility="hidden">&#160;Stack<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.281977" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.281977;0.305233" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="c" dx="-18" visibility="hidden">&#160;Developer<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.305233" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.305233;0.328488" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-18" visibility="hidden">&#160;💻<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.328488" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan visibility="hidden"><animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.328488" dur="34.4s" repeatCount="indefinite"/><tspan class="k">|<animate attributeName="fill-opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" begin="11.3s" dur="0.8s" repeatCount="indefinite"/></tspan></tspan>
   </text>
 
-  <!-- Line 3: DSA icon (binary tree) -->
-  <g opacity="0" stroke="#00F7FF" stroke-width="2" stroke-linecap="round" fill="none">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.405;0.413;0.578;0.586;1" dur="30s" repeatCount="indefinite"/>
+  <!-- Message 3 (starts 15.2s): DSA binary-tree icon -->
+  <g opacity="0" class="ic" stroke-width="2" stroke-linecap="round" fill="none">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.441860;0.453488;0.683140;0.694767;1" dur="34.4s" repeatCount="indefinite"/>
     <line x1="46" y1="29" x2="35" y2="43"/>
     <line x1="46" y1="29" x2="57" y2="43"/>
     <line x1="35" y1="43" x2="28" y2="55"/>
     <line x1="35" y1="43" x2="42" y2="55"/>
     <line x1="57" y1="43" x2="64" y2="55"/>
-    <circle cx="46" cy="26" r="4.5" fill="#00F7FF"/>
-    <circle cx="35" cy="43" r="4.5" fill="#00F7FF"/>
-    <circle cx="57" cy="43" r="4.5" fill="#00F7FF"/>
-    <circle cx="28" cy="57" r="4" fill="#00F7FF"/>
-    <circle cx="42" cy="57" r="4" fill="#00F7FF"/>
-    <circle cx="64" cy="57" r="4" fill="#00F7FF"/>
+    <circle class="if" stroke="none" cx="46" cy="26" r="4.5"/>
+    <circle class="if" stroke="none" cx="35" cy="43" r="4.5"/>
+    <circle class="if" stroke="none" cx="57" cy="43" r="4.5"/>
+    <circle class="if" stroke="none" cx="28" cy="57" r="4"/>
+    <circle class="if" stroke="none" cx="42" cy="57" r="4"/>
+    <circle class="if" stroke="none" cx="64" cy="57" r="4"/>
   </g>
 
-  <!-- Line 3 -->
-  <text x="385" y="46" class="text small" fill="#00F7FF">
-    <tspan opacity="0">Currently<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.421;0.429;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">mastering<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.437;0.445;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Data<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.453;0.461;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Structures<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.469;0.477;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">&amp;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.485;0.493;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Algorithms<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.501;0.509;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">(DSA).<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.517;0.525;0.578;0.586;1" dur="30s" repeatCount="indefinite"/></tspan>
+  <text class="t sm" x="380" y="46">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.683140;0.694767;1" dur="34.4s" repeatCount="indefinite"/>
+    <tspan visibility="hidden">Currently<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.456395" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.456395;0.479651" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;mastering<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.479651" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.479651;0.502907" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;Data<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.502907" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.502907;0.526163" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;Structures<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.526163" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.526163;0.549419" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;&amp;<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.549419" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.549419;0.572674" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;Algorithms<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.572674" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.572674;0.595930" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="c" dx="-10.2" visibility="hidden">&#160;(DSA).<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.595930" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan visibility="hidden"><animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.595930" dur="34.4s" repeatCount="indefinite"/><tspan class="k">|<animate attributeName="fill-opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" begin="20.5s" dur="0.8s" repeatCount="indefinite"/></tspan></tspan>
   </text>
 
-  <!-- Line 4 -->
-  <text x="375" y="46" class="text small" fill="#00F7FF">
-    <tspan opacity="0">🤖<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.605;0.613;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Exploring<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.621;0.629;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Machine<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.637;0.645;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Learning<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.653;0.661;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">and<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.669;0.677;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">building<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.685;0.693;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">intelligent<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.701;0.709;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">solutions.<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.717;0.725;0.778;0.786;1" dur="30s" repeatCount="indefinite"/></tspan>
-  </text>
-
-  <!-- Line 5 -->
-  <text x="375" y="46" class="text small" fill="#00F7FF">
-    <tspan opacity="0">⚡<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.805;0.813;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">ALCHEMYST.exe<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.821;0.829;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">—<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.837;0.845;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">Something<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.853;0.861;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">extraordinary<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.869;0.877;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">is<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.885;0.893;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
-    <tspan opacity="0">compiling...<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.901;0.909;0.978;0.986;1" dur="30s" repeatCount="indefinite"/></tspan>
+  <!-- Message 4 (starts 24.4s) -->
+  <text class="t sm" x="380" y="46">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.973837;0.985465;1" dur="34.4s" repeatCount="indefinite"/>
+    <tspan visibility="hidden">🤖<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.723837" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.723837;0.747093" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;Exploring<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.747093" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.747093;0.770349" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="c" dx="-10.2" visibility="hidden">&#160;Machine<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.770349" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.770349;0.793605" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="c" dx="-10.2" visibility="hidden">&#160;Learning<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.793605" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.793605;0.816860" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;and<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.816860" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.816860;0.840116" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;building<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.840116" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.840116;0.863372" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;intelligent<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.863372" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan class="k" visibility="hidden">|<animate attributeName="visibility" calcMode="discrete" values="hidden;visible;hidden" keyTimes="0;0.863372;0.886628" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan dx="-10.2" visibility="hidden">&#160;solutions.<animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.886628" dur="34.4s" repeatCount="indefinite"/></tspan
+    ><tspan visibility="hidden"><animate attributeName="visibility" calcMode="discrete" values="hidden;visible" keyTimes="0;0.886628" dur="34.4s" repeatCount="indefinite"/><tspan class="k">|<animate attributeName="fill-opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" begin="30.5s" dur="0.8s" repeatCount="indefinite"/></tspan></tspan>
   </text>
 </svg>
